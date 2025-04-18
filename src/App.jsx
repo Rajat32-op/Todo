@@ -83,7 +83,7 @@ function App() {
               <input name={arg.id} onChange={toggle} type="checkbox" />
               <div className={arg.isDone ? 'text-gray-500 text-2xl ml-2 mr-6 line-through  ' : 'text-black text-2xl ml-2 mr-6'}>{arg.desc}</div>
               <div className='mx-6 flex'>
-                <button name={arg.id} onClick={editTask} className='bg-purple-500 h-10 w-8 rounded-md mx-3 font-bold fill-white flex justify-center items-center'>Edit</button>
+                <button name={arg.id} onClick={editTask} className='bg-purple-500 h-10 w-20 rounded-md mx-3 font-bold text-white flex justify-center items-center'>Edit</button>
                 <button  name={arg.id} onClick={deleteTask} className='bg-purple-500 h-10 w-20 rounded-md mx-3 text-white font-bold'>Delete</button>
               </div>
             </div>
